@@ -305,7 +305,7 @@ li{
 }
 
 .order-total > p{
-    padding: 2px 0;
+    padding: 7px 0;
 }
 
 .order-total > p > span {
@@ -321,7 +321,7 @@ li{
     border-radius: 10px;
     height: 40px;
     padding: 0 5px;
-    margin: 5px 0 5px 0;
+    margin: 4px 0 px 0;
 
 }
 
@@ -356,6 +356,6 @@ li{
 
 .checkout:hover{
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 500;
 }
 
