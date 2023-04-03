@@ -1,72 +1,74 @@
 @import url('https://fonts.googleapis.com/css2?family=Bona+Nova&display=swap');
 
-body{
-    background-color: rgb(245, 242, 238);
+body {
+  background-color: rgb(245, 242, 238);
 }
 
-.cover{
+.cover {
   width: 80%;
   margin: 0 auto;
   text-align: center;
 }
-.heading h1{
-  color:#030e12;
+
+.heading h1 {
+  color: #030e12;
   font-size: 48px;
-  font-weight:900;
+  font-weight: 900;
   letter-spacing: 1px;
-  padding-top:2rem;
+  padding-top: 2rem;
   margin: 1rem;
 }
 
-.container{
+.container {
   width: 80%;
-  margin:25px auto;
+  margin: 25px auto;
   display: grid;
-  grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   grid-gap: 2rem;
-  
-  
+
 }
 
-.cardplate{
-  width:200px;
-  height:400px;
-  margin:1.5rem;
+.cardplate {
+  width: 200px;
+  height: 400px;
+  margin: 1.5rem;
   border-radius: 8px;
   box-sizing: border-box;
   overflow: auto;
-  position:relative;
+  position: relative;
 }
 
-.cardplate img{
-    width: 100%;
-    border-radius: 1rem 1rem 0 0;
+.cardplate img {
+  width: 100%;
+  border-radius: 1rem 1rem 0 0;
 }
 
-h3{
+h3 {
   width: 70%;
-    margin:2rem auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-weight: bold;
-    font-style:oblique;
-}
-.cardplate:before{
-  content:"";
-  position:absolute;
-  top:0;
-  left:0;
-  height:0;
-  width:100%;
-
-  transition:0.2s All;
-}
-.cardplate:hover:before{
-  height: 100%;  
- 
-}
-.cardplate:hover{
-  background: linear-gradient(to bottom,rgba(234, 233, 229, 0.651),rgba(223, 227, 211, 0.9));  
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: bold;
+  font-style: oblique;
 }
 
+.cardplate:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 0;
+  width: 100%;
+
+  transition: 0.2s All;
+}
+
+.cardplate:hover:before {
+  height: 100%;
+
+}
+
+.cardplate:hover {
+  background: linear-gradient(to bottom, rgba(234, 233, 229, 0.651), rgba(223, 227, 211, 0.9));
+}

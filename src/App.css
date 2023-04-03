@@ -114,8 +114,6 @@ p {
         padding-right: 36px;
       
     }
-
-    
 }
 
 
@@ -353,6 +351,7 @@ li{
     border-radius: 20px;
     color: var(--grey);
     cursor: pointer;
+    position: relative;
 }
 
 .checkout:hover{

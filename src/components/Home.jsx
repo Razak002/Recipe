@@ -4,16 +4,15 @@ import Sidenav from './Sidenav'
 import Dashboard from './Dashboard'
 import Orderboard from './Orderboard'
 
-
 function Home() {
   return (
     <div className='home'>
-         
-    <Header />
+
+      <Header />
       <Sidenav />
       <Dashboard />
-       <Orderboard />
-   
+      <Orderboard />
+
     </div>
   )
 }

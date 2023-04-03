@@ -5,11 +5,11 @@ import Food2 from '../assets/img/Food2.jpg'
 import Food3 from '../assets/img/Food3.jpg'
 import Food4 from '../assets/img/Food4.jpg'
 import Food5 from '../assets/img/Food5.jpg'
-import { faSearch, faCartShopping } from '@fortawesome/free-solid-svg-icons'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function Dashboard () {
+
+function Dashboard() {
   return (
+
     <div className='dashboard'>
       <div className='dashboard-b'>
         <img src={Food2} alt='img' />
@@ -27,6 +27,7 @@ function Dashboard () {
         <a href='#'>Top rated</a>
         <a href='#'>All</a>
       </div>
+
       <div className='dashbord-content'>
         <div className='dashbord-card'>
           <img className='card' src={Food} alt='food' />
@@ -36,6 +37,7 @@ function Dashboard () {
             <p className='card-time'><span className='time'>15-30mins</span></p>
           </div>
         </div>
+
         <div className='dashbord-card'>
           <img className='card' src={Food3} alt='food' />
           <div className='card-details'>
@@ -44,6 +46,7 @@ function Dashboard () {
             <p className='card-time'><span className='time'>15-30mins</span></p>
           </div>
         </div>
+
         <div className='dashbord-card'>
           <img className='card' src={Food4} alt='food' />
           <div className='card-details'>
@@ -52,6 +55,7 @@ function Dashboard () {
             <p className='card-time'><span className='time'>15-30mins</span></p>
           </div>
         </div>
+
         <div className='dashbord-card'>
           <img className='card' src={Food5} alt='food' />
           <div className='card-details'>
@@ -60,6 +64,7 @@ function Dashboard () {
             <p className='card-time'><span className='time'>15-30mins</span></p>
           </div>
         </div>
+
         <div className='dashbord-card'>
           <img className='card' src={Food} alt='food' />
           <div className='card-details'>
@@ -68,6 +73,7 @@ function Dashboard () {
             <p className='card-time'><span className='time'>15-30mins</span></p>
           </div>
         </div>
+
         <div className='dashbord-card'>
           <img className='card' src={Food1} alt='food' />
           <div className='card-details'>
