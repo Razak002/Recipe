@@ -56,6 +56,12 @@ p {
     z-index: 2;
 }
 
+@media screen and (max-width: 600px) {
+    .logo{
+    padding: 15px 42px 15px 60px ;
+    }
+}
+
 .label-cart{
     display: flex;
     justify-content:flex-end ;
